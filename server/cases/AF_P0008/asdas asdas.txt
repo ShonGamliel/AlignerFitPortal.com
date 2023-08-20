@@ -1,0 +1,36 @@
+{"date":1692064561858
+"teethsObject":"{\"27\":{\"RT\":\"Full Crown\"
+\"material\":\"PMMA\"
+\"mode\":\"Unit\"
+\"number\":27}
+\"28\":{\"RT\":\"Full Crown\"
+\"material\":\"PMMA\"
+\"mode\":\"Unit\"
+\"number\":28}}"
+"type":"prosthesis"
+"doctor":"sadad"
+"files_names":["Digital Scan (Upper Jaw)
+Digital Scan (Lower Jaw)"]
+"caseid":"AF_P0008"
+"userid":"64d524acc100843b4f0eee02"
+"clinicid":"64d5770cc207ba97f2817adb"
+"patient_name":"asdas asdas"
+"patient_age":24
+"patient_gender":"Male"
+"patient_phone":"2323"
+"teeths_color":"C1"
+"teeths_translucency":"HT"
+"plans":[1]
+"status":"Pending"
+"conditions":[]
+"requests":[]
+"additionals":[]
+"conditions2":[]
+"requests2":[]
+"additionals2":[]
+"conditions3":[]
+"requests3":[]
+"additionals3":[]
+"progress":"Pending"
+"_id":"64dadb32eba42b2112c218be"
+"__v":0}

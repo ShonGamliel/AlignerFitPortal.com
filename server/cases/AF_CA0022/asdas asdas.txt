@@ -1,0 +1,36 @@
+{"date":1691776274014
+"type":"clearaligners"
+"doctor":"asdsafd"
+"files_names":["Digital Scan (Upper Jaw)
+Digital Scan (Lower Jaw)"]
+"caseid":"AF_CA0022"
+"userid":"64d38a4343bb63e245468e3b"
+"clinicid":"64d38adc43bb63e245468e4a"
+"patient_name":"asdas asdas"
+"patient_age":24
+"patient_gender":"Male"
+"patient_phone":"sdfsd"
+"plans":[1]
+"status":"Pending"
+"conditions":[""]
+"patient_status":"undefined"
+"requests":["Fix Contacts
+Close Gap"]
+"additionals":[""]
+"jaw":"Lower Jaw"
+"material":"undefined"
+"conditions2":[""]
+"patient_status2":"undefined"
+"requests2":[""]
+"additionals2":[""]
+"jaw2":"undefined"
+"material2":"undefined"
+"conditions3":[""]
+"patient_status3":"undefined"
+"requests3":[""]
+"additionals3":[""]
+"jaw3":"undefined"
+"material3":"undefined"
+"progress":"Pending"
+"_id":"64d67512a35044e874e13fe7"
+"__v":0}

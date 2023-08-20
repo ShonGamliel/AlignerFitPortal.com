@@ -1,0 +1,183 @@
+#navbar {
+  height: 55px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px 0 10px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+#navbar * {
+  user-select: none;
+}
+
+.notification-list-item:hover{
+cursor: pointer;
+background-color: rgba(0,0,0,0.1);
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  gap: 15px;
+  padding: 0 20px 0 20px;
+}
+
+#logo-name {
+  width:110px;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+#navbar-fullname {
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  position: relative;
+  user-select: none;
+  cursor: pointer;
+}
+
+#navbar-fullname-text {
+  color: grey;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+#navbar-fullname-list {
+  position: absolute;
+  transform: translateY(100%);
+  right: 0;
+  padding: 10px;
+  background-color: #fffaeb;
+  border-radius: 10px;
+  border-top-right-radius: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.navbar-fullname-list-item {
+  user-select: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar-fullname-list-item:hover {
+  filter: invert(45%);
+}
+
+.navbar-fullname-list-item-text{
+  white-space: nowrap;
+}
+
+#navbar-buttons {
+  display: flex;
+  align-items: center;
+
+  height: 100%;
+  gap: 5px;
+}
+
+.navbar-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  user-select: none;
+  cursor: pointer;
+  height: 100%;
+  padding: 0 10px 0 10px;
+}
+
+.navbar-button:hover {
+  background-color: #f5e9c6;
+}
+
+.navbar-button-icon {
+  fill: #d4ad44;
+  width: 20px;
+  height: 20px;
+}
+
+.navbar-button-text {
+  color: grey;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-weight: 600;
+  font-size: 14px;
+  /* margin-bottom: -10px; */
+}
+
+@media (max-width: 750px) {
+  #navbar-fullname-text {
+    display: none;
+  }
+}
+
+@media (max-width: 650px) {
+  #logo-name {
+    display: none;
+  }
+}
+
+#float-logo {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 70px;
+  height: 70px;
+  background-color: #f5e9c6;
+  border-radius: 50%;
+  display: none;
+}
+
+#fullname-list-clinic,
+#fullname-list-chat,
+#fullname-list-contact {
+  display: none;
+}
+
+@media (max-width: 540px) {
+  #logo {
+    display: none;
+  }
+  #float-logo {
+    display: block;
+  }
+}
+
+@media (max-width: 450px) {
+  #fullname-list-contact {
+    display: flex;
+  }
+  #navbar-button-contact {
+    display: none;
+  }
+}
+
+@media (max-width: 375px) {
+  #fullname-list-chat {
+    display: flex;
+  }
+  #navbar-button-chat {
+    display: none;
+  }
+}
+
+@media (max-width: 307px) {
+  #fullname-list-clinic {
+    display: flex;
+  }
+  #navbar-button-clinic {
+    display: none;
+  }
+}

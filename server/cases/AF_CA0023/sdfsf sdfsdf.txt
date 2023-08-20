@@ -1,0 +1,44 @@
+{"date":1691919287926
+"type":"clearaligners"
+"doctor":"asfdafda"
+"files_names":["Digital Scan (Upper Jaw)
+Digital Scan (Lower Jaw)"]
+"note":"sdfdsdsvvvvv"
+"caseid":"AF_CA0023"
+"userid":"64d524acc100843b4f0eee02"
+"clinicid":"64d5770cc207ba97f2817adb"
+"patient_name":"sdfsf sdfsdf"
+"patient_age":24
+"patient_gender":"Male"
+"patient_phone":"24232"
+"plans":[1
+2
+3]
+"status":"Pending"
+"conditions":[""]
+"patient_status":"undefined"
+"requests":["Fix Bite
+Fix Contacts"]
+"additionals":[""]
+"jaw":"Upper Jaw"
+"material":"undefined"
+"conditions2":[""]
+"patient_status2":"undefined"
+"requests2":["Fix Bite
+Fix Contacts"]
+"additionals2":[""]
+"jaw2":"Lower Jaw"
+"material2":"undefined"
+"note2":"sdfdsds"
+"conditions3":[""]
+"patient_status3":"undefined"
+"requests3":["Close Gap
+Fix Contacts
+Fix Bite"]
+"additionals3":[""]
+"jaw3":"Upper Jaw"
+"material3":"undefined"
+"note3":"dfsfsfsfs"
+"progress":"Pending"
+"_id":"64d8a3b8feb798212b65afd2"
+"__v":0}

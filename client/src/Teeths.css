@@ -1,0 +1,111 @@
+.diente.reset {
+    cursor: pointer;
+}
+
+.col-xl-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+}
+.d-none {
+    display: none !important;
+}
+/*black infront every teeth*/
+.pontic {
+    display: none;
+}
+
+.inlay-onlay {
+    fill: url(#bg-bridge);
+}
+
+.inlay-onlay {
+    display: none;
+    fill: url(#bg-disilicato) !important;
+}
+
+.diente > .background {
+    fill: rgba(255, 255, 255, 0);
+    stroke: #353535;
+    stroke-miterlimit: 10;
+}
+
+.ondoto-transition {
+    transition: 0.5s;
+}
+
+.coronaDiente .carilla-ff,
+.carillaFF .carilla-ff {
+    display: block;
+}
+
+.diente.piezaSeleccionada .colorNumber {
+    fill: #d4ad44;
+}
+
+.raices {
+    fill: #6e6e6e;
+}
+
+.corona-implante {
+    display: none;
+    fill: #000000;
+    stroke: white;
+}
+
+.carilla-ff {
+    display: none;
+    stroke: rgb(0, 0, 0);
+    stroke-width: 0.5px;
+}
+
+.bgDisilicato {
+    fill: url(#bg-disilicato) !important;
+}
+
+.borderNegro {
+    fill: #020203 !important;
+}
+
+.direct-ff {
+    fill: url(#bg-direct);
+}
+
+.direct-ff {
+    display: none;
+}
+
+.colorNumber {
+    fill: #a7a7a7;
+}
+
+.odonto-num {
+    transition: 0.5s;
+}
+
+/*bridge*/
+.bridge-ff {
+    display: none;
+    fill: rgba(0, 0, 0, 1) !important;
+}
+
+/*teeth color when hover*/
+.diente:hover > .background {
+    /* fill: #4764ac75; */
+    fill: rgba(0, 0, 0, 0.1);
+}
+
+/* half color */
+#inlay-onlay-35 {
+    /* display:block; */
+}
+
+.background {
+    display: block;
+}
+
+/* full color */
+#d-35-background {
+    /* fill: #8a8c91; */
+    /* fill: url(#bg-disilicato); */
+    /* fill: url(#bg-disilicato) !important; */
+}
